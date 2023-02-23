@@ -1,1 +1,8 @@
-
+wsl /etc/resolv.conf
+If you do not already have Python installed, download and install Python 3.6.7: https://www.python.org/downloads/. Note: it is highly recommended that you use version 3.6.7. Installing the latest version of Python may not be compatible with Turi Create.
+Virtual environments: https://www.freecodecamp.org/news/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f/#:~:text=If%20you%20wish%20to%20use,and%20must%20be%20installed%20separately.
+  If you are using a single version of Python say version 3.3+, and want to manage different virtual environments, then venv is all you need.
+  If you want to use multiple versions of Python at 3.3+, with or without virtual environments, then continue to read about pyenv.
+  If you also want to work with Python 2, then pyenv-virtualenv is a tool to consider.
+  install pyenv: https://brain2life.hashnode.dev/how-to-install-pyenv-python-version-manager-on-ubuntu-2004
+  
